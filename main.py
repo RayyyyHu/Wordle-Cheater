@@ -8,7 +8,7 @@ guess = ['', '', '', '', '']
 class Letter:
 
     """
-    - color: represent the color assigned to this letter according to Wordle. Empty if the letter is not used
+    - color: represent the color assigned to this letter. Empty if the letter is not used
     - invalid Position: the position where the letter appears yellow.
     (Note: for color, we ONLY care about whether its grey or not. If the color of is green or yellow, its information will be stored in the position array. Also, when a letter is grey, it will not change to green or yellow in any cases)
     """
